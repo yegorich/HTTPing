@@ -628,6 +628,7 @@ double calc_trend()
 
 void draw_graph(double val)
 {
+	(void)val;
 	int index = 0, loop_n = min(max_x, history_n), n = 0, n2 = 0;
 	double avg = 0, sd = 0;
 	double avg2 = 0, sd2 = 0;
